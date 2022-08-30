@@ -20,6 +20,7 @@ function App() {
         </ul>
       </div>
       <p>In the chance you want to see my resume, you're in luck, cause it's <a href={resume} download>here</a>!</p>
+      <p>If, for whatever reason, you want to meet me, feel free to book a time on my <a href="https://calendly.com/ellisalcantara/meeting" target="_blank" rel="noopener noreferrer">Calendly</a></p>
       <p>So that's all for now, but please feel free to connect with me on <a href="https://www.linkedin.com/in/ellis-alcantara/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or visit my <a href="https://github.com/EIIis/" target="_blank" rel="noopener noreferrer">Github</a></p>
     </div>    
   );
