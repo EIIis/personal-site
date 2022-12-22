@@ -10,9 +10,9 @@ function Temp() {
 
       <p>You're probably thinking where is my website! Maybe you don't care, I don't know to be honest 🤷🏽‍♂️</p>
 
-      <p>But tl;dr, I had an outdated site and decided to build a new website and it's currently under construction 👷🏽‍♂️, hopefully it'll look nice once done.</p>
+      <p>But tl;dr, I had an outdated portfolio and decided to build a new website and it's currently under construction 👷🏽‍♂️, hopefully it'll look nice once done.</p>
 
-      <p>You can follow my progress following clicking <a href="https://github.com/EIIis/personal-site" target="_blank" rel="noopener noreferrer">me</a> which will redirect you to my Github repository</p>
+      <p>You can follow my progress by clicking <a href="https://github.com/EIIis/personal-site" target="_blank" rel="noopener noreferrer">me</a> which will redirect you to my new portfolio repository on Github</p>
 
       <p>In the meantime, here's a short bio of myself!</p>
 
@@ -20,15 +20,15 @@ function Temp() {
         <ul className='Erase-bullet'>
           <li>👋🏽 My name is Ellis Alcantara and I'm from Birmingham, Alabama</li>
           <li>📚 I study computer science and mathematics at the <a href="https://en.wikipedia.org/wiki/University_of_Alabama_at_Birmingham" target="_blank" rel="noopener noreferrer">University of Alabama at Birmingham</a></li>
-          <li>💼 Previously worked at HiveRnD,a local Birmingham start-up as a software engineer, focusing on the frontend web development. I've also worked at Amazon Lab126, in Sunnyvale, California, 
-            as a software qa engineer working in the Consumer Robotics group.</li>
-          <li>🔜 This upcoming summer I will be joining the Expedia Group as a Technical Program Manager (TPM) based in Seattle, Washington!</li>
-          <li>👨🏽‍💻 Currently working on learning iOS development through <a href="https://www.codepath.org/courses/ios-mobile-development" target="_blank" rel="noopener noreferrer">CodePath </a> 
-          and web development (MERN stack) through <a href="https://fullstackopen.com/" target="_blank" rel="noopener noreferrer">Full Stack Open</a></li>
+          <li>💼 Previously interned at HiveRnD,a local Birmingham start-up as a software engineer, focusing on the frontend web development. Most recently interned at Amazon Lab126, in Sunnyvale, California, 
+            as a software qa engineer working in the Consumer Robotics group, which is basically just Amazon Astro.</li>
+          <li>🔜 This upcoming summer I will heading to Seattle, Washington to intern at Expedia Group as a Technical Program Manager (TPM)!</li>
+          <li>👨🏽‍💻 Currently working on learning <a href="https://www.codepath.org/courses/ios-development" target="_blank" rel="noopener noreferrer">iOS development </a> as well as 
+          furthering my <a href="https://www.codepath.org/courses/web-development" target="_blank" rel="noopener noreferrer">web development </a>through CodePath </li>
         </ul>
       </div>
 
-      <p>In the chance you want to see my resume, you're in luck cause it's <a href={resume} download>here</a>!</p>
+      <p>In the chance you want to see my resume, you can download it <a href={resume} download>here</a>! or if you just want to see it, you can click <a href={resume} target="_blank" rel="noopener noreferrer">here</a></p>
 
       <p>If, for whatever reason, you want to meet me, feel free to book a time on my <a href="https://calendly.com/ellisalcantara/meeting" target="_blank" rel="noopener noreferrer">Calendly</a></p>
 
