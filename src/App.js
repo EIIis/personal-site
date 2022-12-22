@@ -39,8 +39,8 @@ function App() {
       </p>
 
       <p>
-      You can also check out my <a href="https://twitter.com/ellisalcantaram" target="_blank" rel="noopener noreferrer">Twitter</a> for rants
-      or follow me on <a href="https://www.instagram.com/rs.ellis/" target="_blank" rel="noopener noreferrer">Instagram</a> if you're cool 😎
+      You can also check out my <a href="https://twitter.com/ellis_alc" target="_blank" rel="noopener noreferrer">Twitter</a> or 
+      follow me on <a href="https://www.instagram.com/rs.ellis/" target="_blank" rel="noopener noreferrer">Instagram</a> if you're cool 😎
       </p>
 
     </div>    
