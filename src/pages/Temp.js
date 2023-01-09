@@ -33,14 +33,14 @@ function Temp() {
       <p>If, for whatever reason, you want to meet me, feel free to book a time on my <a href="https://calendly.com/ellisalcantara/meeting" target="_blank" rel="noopener noreferrer">Calendly</a></p>
 
       <p>
-      So that's all for now, but please feel free to connect with me on <a href="https://www.linkedin.com/in/ellis-alcantara/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or 
+      So that's all for now, but please feel free to connect with me on <a href="https://www.linkedin.com/in/~ellis/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or 
       visit my <a href="https://github.com/EIIis/" target="_blank" rel="noopener noreferrer">Github</a>
       </p>
 
       <p>
-      You can also check out my <a href="https://twitter.com/ellis_alc" target="_blank" rel="noopener noreferrer">Twitter</a> or 
-      follow me on <a href="https://www.instagram.com/rs.ellis/" target="_blank" rel="noopener noreferrer">Instagram</a> if you're cool 😎
-      </p>
+      You can also check out my <a href="https://twitter.com/ellis_alc" target="_blank" rel="noopener noreferrer">Twitter</a>, 
+      follow me on <a href="https://www.instagram.com/rs.ellis/" target="_blank" rel="noopener noreferrer">Instagram</a>, or
+      check my blog post on <a href="https://medium.com/@ellisalcantara" target="_blank" rel="noopener noreferrer">Medium</a>, if you're cool 😎!</p>
 
     </div> 
   );
