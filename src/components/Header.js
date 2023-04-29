@@ -5,7 +5,7 @@ import { StyleSheet, css } from 'aphrodite';
 function Header() {
     return(
         <div class={css(styles.container)}>
-            <p class={css(styles.text)}>Ellis Alcantaraaaaaaaa</p>
+            <p class={css(styles.text)}>Hi! Welcome to my corner of the Internet! 🌎</p>
         </div>
     );
 }
@@ -13,15 +13,15 @@ function Header() {
 const styles = StyleSheet.create({
     container: {
         overflow: 'hidden',
-        background: Color.navbar,
+        background: 'black',
         display: 'flex',
-        justifyContent: 'space-between',
         alignItems: 'center',
-        height: 103,
+        justifyContent: 'center',
     },
     text: {
         color: Color.runescapeYellow,
-        fontFamily: 'RuneScape UF'
+        fontFamily: 'RuneScape UF',
+        fontSize: '55px',
     },
 
 

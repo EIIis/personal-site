@@ -11,9 +11,10 @@ function Background() {
 }
 
 const styles = StyleSheet.create({
+    
     container: {
         width: '100%',
-        backgroundColor: Color.black,
+        backgroundColor: 'black',
     },
     
 });
