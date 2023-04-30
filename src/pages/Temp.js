@@ -1,49 +1,73 @@
-import '../App.css';
-import '../Bio.css'
-import resume from '../assets/Ellis_Alcantara2024.pdf';
+import Header from '../components/Header'
+import Subheader from '../components/Subheader'
+import Paragraph from '../components/Paragraph'
+import ImageParagraph from '../components/ImageParagraph';
+import HyperParagraph from '../components/HyperParagraph';
+import DownloadLink from '../components/DownloadLink';
+
+import expediaImage from '../assets/ExpediaGroup.png'
+import hiverndImage from '../assets/HiveRnD.png'
+import amazonImage from '../assets/AmazonInvert.png'
+import resume from '../assets/Ellis_Alcantara2024.pdf'
+
+function DevBox() {
+    return (
+      <div>
+        <Header/>
+        <Subheader title="About Me!" />
+        <Paragraph text="Hi, my name is Ellis Alcantara Martinez! Born and raised in Alabama 🤠 I'm currently studying computer science and mathematics
+         at the University of Alabama at Birmingham! My technical background include being a software engineer intern, software qa engineer intern,
+         and most recently will have a go-around as a technical program manager intern! Super excited to try out as many roles as possible when I'm early
+         in my career."/>
+         <Paragraph text="Outside of academic/work related stuff, I love listening to music, I'll  make sure to link my Spotify somewhere on here so y'all
+         can see what I'm listening to! I really enjoy playing games, both irl sport and video games. Some of my favorites include Old School Runescape 
+         (where I got this font from), FIFA, some Civ 5/6, and CS:GO. I also enjoy playing soccer, have started going back to the gym, and also enjoy 
+         clubbing occasionally ;)! All in all, I really enjoy hanging out with friends and just having fun and trying new things."/>
+        <Paragraph text="While I enjoy having fun, I'm also very passionate about increasing diversity within the tech field. Please feel free to
+         reach out to me if you're an under-represented student within technology, I would love to share some very useful resources that have helped me."/>
+        
+        <Subheader title="Experiences" />
+        <ImageParagraph
+        myImage={expediaImage}
+        altText="Expedia Group Logo"
+        texts={['Technical Program Manager Intern', 'Seattle, Washington', 'Expected May 2023 - July 2023',
+         'Incoming technical program manager intern for Expedia Group working on the Business Enablement team, under Product & Tech group.']}
+        />
+        <ImageParagraph
+        myImage={amazonImage}
+        altText="Amazon Lab126 Logo"
+        texts={['Software Quality Assurance Engineer Intern', 'Sunnyvale, California', 'May 2022 - August 2022',
+         'Worked at Amazon, specifically Lab126, where I was part of the Platform QA team under Consumer Robotics. During my time here, I focused improving testing methods by automating certain test cases. I also developed a new testing platform, which reduced manual testing, as it would record the time for certain charging when plugged into Amazon Astro.']}
+        />
+        <ImageParagraph
+        myImage={hiverndImage}
+        altText="HiveRnD Logo"
+        texts={['Software Engineer Intern', 'Birmingham, Alabama', 'May 2021 - July 2021',
+         'My first ever internship :)! Working here I focused on developing the frontend of the website. Utilized a lot of JavaScript and React here in order to build out a responsive, dynamic website. Mostly built out webpages, such as the information page, login page, and a few others, as well as fixing the occasional UI issue.']}
+        />
+
+        <Subheader title="Selected Projects" />
+        <Paragraph text="None."/>
+        <Paragraph text="JK, I'll add them soon, but in the meantime, you can check my GitHub :p "/>
 
 
-function Temp() {
-  return (
-    <div className="App">
-      <p>Hello World!</p>
+        <Subheader title="Socials" />
+        <Paragraph text="Not done with the website, but I have the following links to my socials"/>
+        <HyperParagraph text="<a href='https://www.linkedin.com/in/~ellis/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>" />
+        <HyperParagraph text="<a href='https://www.instagram.com/rs.ellis/' target='_blank' rel='noopener noreferrer'>Instagram</a>" />
+        <HyperParagraph text="<a href='https://github.com/EIIis/' target='_blank' rel='noopener noreferrer'>GitHub</a>" />
+        <DownloadLink
+        fileUrl={resume}
+        fileName="EllisAlcantara2024.pdf"
+        text="Downloadable Resume :)"
+        />
 
-      <p>You're probably thinking where is my website! Maybe you don't care, I don't know to be honest 🤷🏽‍♂️</p>
+        <Subheader/>
 
-      <p>But tl;dr, I had an outdated portfolio and decided to build a new website and it's currently under construction 👷🏽‍♂️, hopefully it'll look nice once done.</p>
 
-      <p>You can follow my progress by clicking <a href="https://github.com/EIIis/personal-site" target="_blank" rel="noopener noreferrer">me</a> which will redirect you to my new portfolio repository on Github</p>
 
-      <p>In the meantime, here's a short bio of myself!</p>
-
-      <div className='Bio-align'>
-        <ul className='Erase-bullet'>
-          <li>👋🏽 My name is Ellis Alcantara and I'm from Birmingham, Alabama</li>
-          <li>📚 I study computer science and mathematics at the <a href="https://en.wikipedia.org/wiki/University_of_Alabama_at_Birmingham" target="_blank" rel="noopener noreferrer">University of Alabama at Birmingham</a></li>
-          <li>💼 Previously interned at HiveRnD,a local Birmingham start-up as a software engineer, focusing on the frontend web development. Most recently interned at Amazon Lab126, in Sunnyvale, California, 
-            as a software qa engineer working in the Consumer Robotics group, which is basically just Amazon Astro.</li>
-          <li>🔜 This upcoming summer I will heading to Seattle, Washington to intern at Expedia Group as a Technical Program Manager (TPM)!</li>
-          <li>👨🏽‍💻 Currently working on learning <a href="https://www.codepath.org/courses/ios-development" target="_blank" rel="noopener noreferrer">iOS development </a> as well as 
-          furthering my <a href="https://www.codepath.org/courses/web-development" target="_blank" rel="noopener noreferrer">web development </a>through CodePath </li>
-        </ul>
-      </div>
-
-      <p>In the chance you want to see my resume, you can download it <a href={resume} download>here</a>! or if you just want to see it, you can click <a href={resume} target="_blank" rel="noopener noreferrer">here</a></p>
-
-      <p>If, for whatever reason, you want to meet me, feel free to book a time on my <a href="https://calendly.com/ellisalcantara/meeting" target="_blank" rel="noopener noreferrer">Calendly</a></p>
-
-      <p>
-      So that's all for now, but please feel free to connect with me on <a href="https://www.linkedin.com/in/~ellis/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or 
-      visit my <a href="https://github.com/EIIis/" target="_blank" rel="noopener noreferrer">Github</a>
-      </p>
-
-      <p>
-      You can also check out my <a href="https://twitter.com/ellis_alc" target="_blank" rel="noopener noreferrer">Twitter</a>, 
-      follow me on <a href="https://www.instagram.com/rs.ellis/" target="_blank" rel="noopener noreferrer">Instagram</a>, or
-      check my blog post on <a href="https://medium.com/@ellisalcantara" target="_blank" rel="noopener noreferrer">Medium</a>, if you're cool 😎!</p>
-
-    </div> 
-  );
-}
-
-export default Temp;
+      </div>        
+    );
+  }
+  
+export default DevBox;
