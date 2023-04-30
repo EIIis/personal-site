@@ -1,7 +1,7 @@
 import React from 'react';
 import Color from '../util/Color';
 import { StyleSheet, css } from 'aphrodite';
-
+/*Hard coded the shit out of this LMAOOO*/
 function Header() {
     return(
         <div class={css(styles.container)}>
