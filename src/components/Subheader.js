@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 
   },
   headerText: {
-    color: Color.runescapeYellow,
+    color: Color.white,
     fontFamily: 'RuneScape UF',
     fontSize: '50px',
   },
