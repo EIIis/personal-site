@@ -19,6 +19,9 @@ import ahk from '../assets/projectImages/ahk.png'
 import runelite from '../assets/projectImages/runelite.jpg'
 import LingoMate from '../assets/projectImages/LingoMate.png'
 
+import { ReactComponent as LinkedInIcon } from '../assets/icons/linkedin.svg';
+
+
 import resume from '../assets/Ellis_Alcantara.pdf'
 
 // Placeholders images for my projects
@@ -53,6 +56,12 @@ const carouselItems = [
   },
 ];
 
+const socialLinks = [
+  { icon: <img src={LinkedInIcon} alt="LinkedIn" />, link: 'https://www.linkedin.com/in/ellis-alcantara/' },
+  { icon: <img src={LinkedInIcon} alt="GitHub" />, link: 'https://github.com/your-profile/' },
+  { icon: <img src={LinkedInIcon} alt="Twitter" />, link: 'https://twitter.com/your-profile/' },
+];
+
 function Temp() {
     return (
       <div>
@@ -60,8 +69,8 @@ function Temp() {
         {/* About Me Section */}
         <Header/>
         <Subheader title="About Me!" />
-        <Paragraph text="Hi, my name is Ellis Alcantara Martinez! Born and raised in Alabama 🤠 I'm currently studying computer science at the University of Alabama at Birmingham! My technical background include data analysis, software engineering, both manual + software quality assurance, and technical program managment! As you can tell from my broad background, I'm super excited to try out as many roles as possible while early career!"/>
-        <Paragraph text="Outside of academic/work related stuff, I have a few hobbies. I love listening to music, enjoy playing games, both irl sport and video games. Some of my favorites include Old School Runescape (I finally maxed my main account!), FIFA, Civ 5/6, and CS:2. I also enjoy playing soccer, have started going back to the gym, and also enjoy going out with the 'homies'! All in all, I really enjoy chilling, having fun, and trying new things."/>
+        <Paragraph text="Hi, my name is Ellis Alcantara Martinez! Born and raised in Alabama 🤠 I'm currently studying computer science at the University of Alabama at Birmingham! My technical background include being a software engineer intern, software qa engineer intern, and technical program manager intern! I'm super excited to try out as many roles as possible while young and still early in my career!"/>
+        <Paragraph text="Outside of academic/work related stuff, I have a few hobbies. I love listening to music, enjoy playing games, both irl sport and video games. Some of my favorites include Old School Runescape (I finally maxed my main account!), FIFA, some Civ 5/6, and CS:GO. I also enjoy playing soccer, have started going back to the gym, and also enjoy clubbing occasionally ;)! All in all, I really enjoy hanging out with friends and just having fun and trying new things."/>
         <Paragraph text="While I enjoy having fun, I'm also very passionate about increasing diversity within the tech field. Please feel free to reach out to me if you're an under-represented student within technology, I would love to share some very useful resources that have helped me."/>
         
         {/* Experiences Section */}
@@ -108,7 +117,25 @@ function Temp() {
         {/* Socials Section + Resume*/}
         <Subheader title="Socials" />
         <Paragraph text="Not done with the website, but I have the following links to my socials"/>
-        <HyperParagraph text="<a href='https://www.linkedin.com/in/ellis-alcantara/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>" />
+        
+       {/* Second LinkedIn Icon */} 
+        <Socials 
+        icon={<LinkedInIcon />} 
+        link="https://www.linkedin.com/in/your-profile-1/" 
+      />
+
+      {/* Second LinkedIn Icon */}
+      <Socials 
+        icon={<LinkedInIcon />} 
+        link="https://www.linkedin.com/in/your-profile-2/" 
+      />
+
+      {/* Third LinkedIn Icon */}
+      <Socials 
+        icon={<LinkedInIcon />} 
+        link="https://www.linkedin.com/in/your-profile-3/" 
+      />
+
         <HyperParagraph text="<a href='https://www.instagram.com/rs.ellis/' target='_blank' rel='noopener noreferrer'>Instagram</a>" />
         <HyperParagraph text="<a href='https://github.com/EIIis/' target='_blank' rel='noopener noreferrer'>GitHub</a>" />
         <DownloadLink fileUrl={resume} fileName="EllisAlcantara.pdf" text="Downloadable Resume :)" />
