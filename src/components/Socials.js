@@ -6,7 +6,7 @@ function Socials({ icon, link }) {
     <div className={css(styles.mainContainer)}>
       <a href={link} target="_blank" rel="noopener noreferrer">
         <div className={css(styles.svgContainer)}>
-          {icon}
+          {React.cloneElement(icon, { className: css(styles.svg) })}
         </div>
       </a>
     </div>
@@ -15,20 +15,25 @@ function Socials({ icon, link }) {
 
 const styles = StyleSheet.create({
   mainContainer: {
-    overflow: 'hidden',
-    display: 'inline-block', // Keeps icons in a row
-    alignItems: 'center',
-    justifyContent: 'center',
-    textAlign: 'center',
-    padding: '0 15px',
-  },
-  svgContainer: {
-    width: '50px',
-    height: '50px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    cursor: 'pointer',
+    textAlign: 'center',
+    margin: '10px',
+  },
+  svgContainer: {
+    width: '60px',
+    height: '60px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: '8px',
+    overflow: 'hidden',
+  },
+  svg: {
+    width: '60%',
+    height: '60%',
+    objectFit: 'contain',
   },
 });
 
