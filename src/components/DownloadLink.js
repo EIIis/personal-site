@@ -1,6 +1,6 @@
-import React from 'react';
-import Color from '../util/Color';
-import { StyleSheet, css } from 'aphrodite';
+import React from "react";
+import Color from "../util/Color";
+import { StyleSheet, css } from "aphrodite";
 
 function DownloadLink(props) {
   return (
@@ -18,20 +18,20 @@ function DownloadLink(props) {
 
 const styles = StyleSheet.create({
   mainContainer: {
-    overflow: 'hidden',
-    background: 'black',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textAlign: 'center',
-    padding: '0 30px',
+    overflow: "hidden",
+    background: "black",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+    padding: "0 30px",
   },
   downloadLink: {
     color: Color.runescapeYellow,
-    fontFamily: 'RuneScape UF',
-    fontSize: '30px',
-    textDecoration: 'underline',
-    cursor: 'pointer',
+    fontFamily: "RuneScape UF",
+    fontSize: "30px",
+    textDecoration: "underline",
+    cursor: "pointer",
   },
 });
 

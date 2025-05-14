@@ -1,6 +1,6 @@
-import React from 'react';
-import Color from '../util/Color';
-import { StyleSheet, css } from 'aphrodite';
+import React from "react";
+import Color from "../util/Color";
+import { StyleSheet, css } from "aphrodite";
 
 function Subheader(props) {
   return (
@@ -12,18 +12,17 @@ function Subheader(props) {
 
 const styles = StyleSheet.create({
   mainContainer: {
-    overflow: 'hidden',
-    background: 'black',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textAlign: 'center',
-
+    overflow: "hidden",
+    background: "black",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
   },
   headerText: {
     color: Color.white,
-    fontFamily: 'RuneScape UF',
-    fontSize: '50px',
+    fontFamily: "RuneScape UF",
+    fontSize: "50px",
   },
 });
 

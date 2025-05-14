@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, css } from 'aphrodite';
+import React from "react";
+import { StyleSheet, css } from "aphrodite";
 
 function Socials({ icon, link }) {
   return (
@@ -15,25 +15,25 @@ function Socials({ icon, link }) {
 
 const styles = StyleSheet.create({
   mainContainer: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textAlign: 'center',
-    margin: '10px',
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+    margin: "10px",
   },
   svgContainer: {
-    width: '60px',
-    height: '60px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: '8px',
-    overflow: 'hidden',
+    width: "60px",
+    height: "60px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: "8px",
+    overflow: "hidden",
   },
   svg: {
-    width: '60%',
-    height: '60%',
-    objectFit: 'contain',
+    width: "60%",
+    height: "60%",
+    objectFit: "contain",
   },
 });
 

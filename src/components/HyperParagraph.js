@@ -1,6 +1,6 @@
-import React from 'react';
-import Color from '../util/Color';
-import { StyleSheet, css } from 'aphrodite';
+import React from "react";
+import Color from "../util/Color";
+import { StyleSheet, css } from "aphrodite";
 
 function HyperParagraph(props) {
   return (
@@ -15,24 +15,23 @@ function HyperParagraph(props) {
 
 const styles = StyleSheet.create({
   mainContainer: {
-    overflow: 'hidden',
-    background: 'black',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textAlign: 'center',
-    padding: '0 30px',
+    overflow: "hidden",
+    background: "black",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+    padding: "0 30px",
   },
   subText: {
     color: Color.runescapeYellow,
-    fontFamily: 'RuneScape UF',
-    fontSize: '30px',
+    fontFamily: "RuneScape UF",
+    fontSize: "30px",
     a: {
       color: Color.runescapeYellow,
-      textDecoration: 'underline',
+      textDecoration: "underline",
     },
   },
 });
 
 export default HyperParagraph;
-
